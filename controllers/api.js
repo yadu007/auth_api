@@ -1,7 +1,7 @@
 var api_lib = require('../lib/api')
 
+//login function : login user and respond with access token.
 let login = async function(req,res){
-
 
     try {
         let result = await api_lib.login(req.body);
@@ -21,6 +21,7 @@ let login = async function(req,res){
         });
     }
 }
+//register function : creating new user 
 let register = async (req,res)=>{
     try {
         await api_lib.register(req.body);
@@ -35,6 +36,7 @@ let register = async (req,res)=>{
         });
     }
 }
+//reset function :  reseting password if user signedin
 let reset = async function(req,res){
     var key = req.get('x-api-key')
     if(key){
@@ -71,6 +73,7 @@ let reset = async function(req,res){
     }
 
 }
+//forgot password function: user will request for rest via POST and verifying identity via GET 
 let forgot = function(req,res){
     if (req.method == "POST") {
 
@@ -99,6 +102,7 @@ let forgot = function(req,res){
 
     }
 }
+//middleware to check if the user logged in
 let login_check = async (req,res,next)=>{
     var key = req.get('x-api-key')
     if(key){
