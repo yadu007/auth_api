@@ -21,7 +21,7 @@ let login = async function(req,res){
         });
     }
 }
-let register = async function(req,res){
+let register = async (req,res)=>{
     try {
         await api_lib.register(req.body);
         res.status(200).json({
@@ -38,7 +38,7 @@ let register = async function(req,res){
 let reset = async function(req,res){
     var key = req.get('x-api-key')
     if(key){
-    api_lib.login_check(req.body.email,key,function(resp){
+    api_lib.login_check(req.body.email,key,(resp)=>{
         if(resp){
             if(!req.body.new_pass){
                 res.status(200).json({
@@ -47,7 +47,7 @@ let reset = async function(req,res){
                 res.end();
             }
             else{
-                api_lib.reset(req.body.email,req.body.new_pass,function(){
+                api_lib.reset(req.body.email,req.body.new_pass,()=>{
                     res.status(200).json({
                         msg: "password updated"
                     });
@@ -74,7 +74,7 @@ let reset = async function(req,res){
 let forgot = function(req,res){
     if (req.method == "POST") {
 
-        api_lib.create_token_forgot(req.body.email,req.body.new_pass,function(forgot_ink){
+        api_lib.create_token_forgot(req.body.email,req.body.new_pass,(forgot_ink)=>{
             if(forgot_ink){
                 res.status(200).json({
                     forgot_link: forgot_ink
@@ -83,7 +83,7 @@ let forgot = function(req,res){
         })
     }
     else if(req.method == "GET"){
-        api_lib.verify_forgot(req.query.token,function(val){
+        api_lib.verify_forgot(req.query.token,(val)=>{
             if(val){
                 res.status(200).json({
                     response: "done reseting"
@@ -99,7 +99,7 @@ let forgot = function(req,res){
 
     }
 }
-let login_check = async function(req,res,next){
+let login_check = async (req,res,next)=>{
     var key = req.get('x-api-key')
     if(key){
     api_lib.login_check(req.body.email,key,function(resp){

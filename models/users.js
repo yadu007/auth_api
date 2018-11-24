@@ -19,7 +19,7 @@ module.exports = function(sequelize, Sequelize) {
         },
     }, {
         indexes: [{
-            unique: false,
+            unique: true,
             fields: ['email']
         }, {
             unique: false,
