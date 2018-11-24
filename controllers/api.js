@@ -8,7 +8,7 @@ let login = async function(req,res){
 
         if (result.found) {
             res.status(200).json({
-                msg: "Login success id = "+result.id
+                msg: "Login success us this token for login = "+result.id
             });
         } else {
             res.status(401).json({
