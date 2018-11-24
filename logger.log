@@ -1,0 +1,46 @@
+{"message":"Listening on undefined:undefined","level":"info"}
+{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"level":"error","message":"Something is wrong with Mysql connection:"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"level":"error","message":"Something is wrong with Mysql connection:"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"level":"error","message":"Something is wrong with Mysql connection:"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"level":"error","message":"Something is wrong with Mysql connection:"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"level":"error","message":"Something is wrong with Mysql connection:"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"level":"error","message":"Something is wrong with Mysql connection:"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"level":"error","message":"Something is wrong with Mysql connection:"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"level":"error","message":"Something is wrong with Mysql connection:"}
+{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"level":"error","message":"Something is wrong with Mysql connection:"}
+{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"level":"error","message":"Something is wrong with Mysql connection:"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"level":"error","message":"Something is wrong with Mysql connection:"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"name":"SequelizeConnectionError","parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test-db'"},"level":"error","message":"Something is wrong with Mysql connection:"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"message":"Mysql Connection has been established successfully.","level":"info"}
+{"message":"Done syncing Users table.","level":"info"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"message":"Mysql Connection has been established successfully.","level":"info"}
+{"message":"Done syncing Users table.","level":"info"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"message":"Mysql Connection has been established successfully.","level":"info"}
+{"message":"Done syncing Users table.","level":"info"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"message":"Mysql Connection has been established successfully.","level":"info"}
+{"message":"Done syncing Users table.","level":"info"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"message":"Mysql Connection has been established successfully.","level":"info"}
+{"message":"Done syncing Users table.","level":"info"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"message":"Mysql Connection has been established successfully.","level":"info"}
+{"message":"Done syncing Users table.","level":"info"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"message":"Mysql Connection has been established successfully.","level":"info"}
+{"message":"Done syncing Users table.","level":"info"}
+{"message":"Listening on undefined:undefined","level":"info"}
+{"message":"Mysql Connection has been established successfully.","level":"info"}
+{"message":"Done syncing Users table.","level":"info"}
