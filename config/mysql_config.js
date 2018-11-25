@@ -1,7 +1,7 @@
 
 var Sequelize = require('sequelize');
 
-module.exports = function(logger) {
+module.exports = (logger)=> {
         var host      = "localhost";
         var port      = "3306";
         var username  = "yzcop";
@@ -19,14 +19,15 @@ module.exports = function(logger) {
         dialect: protocol
     });
 
-    sequelize.authenticate().then(function() {
+    sequelize.authenticate().then( ()=> {
         logger.info('Mysql Connection has been established successfully.');
-    }, function (err) {
+ 
+    }).catch(()=>{
         logger.error('Something is wrong with Mysql connection:', err);
     });
 
     return {
-        getClient: function () {
+        getClient: ()=> {
             return sequelize;
         }
     };
